@@ -55,7 +55,7 @@ contract Test {
         coinFlip = CoinFlip(conFlipAddress);
     }
 
-    function IncreaseItBy1() public {
+    function hackFlip() public {
         coinFlip.flip(getBool());
     }
 
@@ -234,7 +234,7 @@ contract Test {
         coinFlip = CoinFlip(conFlipAddress);
     }
 
-    function IncreaseItBy1() public {
+    function hackFlip() public {
         coinFlip.flip(getBool());
     }
 
